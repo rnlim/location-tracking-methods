@@ -5,7 +5,7 @@ library(sf)
 library(sp)
 
 # Load in data
-data <- read.csv("/Additional File 2 - accuracy data.csv")
+data <- read.csv("/spatial_accuracy_data.csv")
 handheld_csv <- data[data$method == "handheld",]
 watch_csv <- data[data$method == "watch",]
 tablet_csv <- data[data$method == "tablet",]
